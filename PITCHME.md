@@ -9,7 +9,7 @@
 @title[Text + Image]
 
 @snap[east split-screen-byline text-white]
->在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构。
+『在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构』
 @snapend
 
 @snap[west split-screen-img]
@@ -47,10 +47,10 @@ When
 @olend
 @snapend
 
----?image=template/img/bg/pink.jpg&position=left&size=70% 100%
+---?image=template/img/bg/orange.jpg&position=left&size=70% 100%
 @title[Heading + List Body]
 
-@snap[east split-screen-heading text-pink span-50]
+@snap[east split-screen-heading text-orange span-50]
 要点
 @snapend
 
@@ -61,31 +61,62 @@ When
 @ulend
 @snapend
 
----?image=template/img/bg/green.jpg&position=left&size=50% 100%
-@title[Text + Image Fragment]
 
-@snap[west split-screen-byline text-white]
-Lorem ipsum sit dolor amet, consectetur elit.
+---?image=template/img/bg/orange.jpg&position=right&size=50% 100%
+@title[Heading + List Body]
+
+@snap[west split-screen-heading text-orange span-50]
+how
 @snapend
 
-@snap[east split-screen-img fragment]
-![DEVELOPER](template/img/developer.jpg)
+@snap[east text-white span-45]
+测试、小修改、测试、小修改
 @snapend
 
-@snap[south-west template-note text-white]
-Split-screen text and image-fragment template.
+---?image=template/img/bg/orange.jpg&position=left&size=70% 100%
+@title[Heading + List Body]
+
+@snap[east split-screen-heading text-orange span-50]
+搭建测试环境
+@snapend
+
+@snap[west text-white span-65]
+@ul[split-screen-list](false)
+- 确保独立可靠
+- 确保完全自动化
+- 在开始编程前写测试代码
+@ulend
 @snapend
 
 
-+++?image=template/img/bg/black.jpg&position=left&size=50% 100%
+---?image=template/img/bg/orange.jpg&position=left&size=70% 100%
+@title[Heading + List Body]
+
+@snap[east split-screen-heading text-orange span-50]
+找出 "坏味道"
+@snapend
+
+@snap[west text-white span-65]
+@ul[split-screen-list](false)
+- 重复代码
+- 过长函数
+- switch 表达式
+- 临时字段...
+@ulend
+@snapend
+
+---?image=template/img/bg/black.jpg&position=right&size=50% 100%
+@title[Text + Image]
+
+@snap[east split-screen-byline text-white]
+重构...
+@snapend
+
+---?image=template/img/bg/black.jpg&position=left&size=50% 100%
 @title[Text + Image Centered]
 
 @snap[west split-screen-byline text-white]
 Lorem ipsum<br>sit dolor amet, consectetur elit.
-@snapend
-
-@snap[midpoint split-screen-img]
-![DEVELOPER](template/img/developer.jpg)
 @snapend
 
 @snap[east split-screen-text text-black]
@@ -93,25 +124,5 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 @snapend
 
 @snap[south-west template-note text-white]
-Split-screen text and centered image template.
-@snapend
-
-
-+++?image=template/img/bg/pink.jpg&position=right&size=50% 100%
-@title[Text + Image Centered]
-
-@snap[east split-screen-text text-white]
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-@snapend
-
-@snap[midpoint split-screen-img]
-![DEVELOPER](template/img/developer.jpg)
-@snapend
-
-@snap[west split-screen-byline]
-Lorem ipsum<br>sit dolor amet, consectetur elit.
-@snapend
-
-@snap[south-west template-note text-gray]
 Split-screen text and centered image template.
 @snapend
