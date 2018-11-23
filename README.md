@@ -1,2 +1,6 @@
-# refactoring
- 重构读书笔记
+# GitPitch - The Template
+
+*THE FASTEST WAY FROM IDEA TO PRESENTATION*
+
+For details, see the complete template documentation [here](https://gitpitch.com/docs/the-template).
+
