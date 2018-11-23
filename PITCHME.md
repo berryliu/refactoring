@@ -16,10 +16,10 @@
 ![DEVELOPER](template/img/developer.jpg)
 @snapend
 
----?image=template/img/bg/orange.jpg&position=right&size=50% 100%
+---?image=template/img/bg/black.jpg&position=right&size=50% 100%
 @title[Heading + List Body]
 
-@snap[west split-screen-heading text-orange span-50]
+@snap[west split-screen-heading text-black span-50]
 Why
 @snapend
 
@@ -32,10 +32,10 @@ Why
 @olend
 @snapend
 
----?image=template/img/bg/orange.jpg&position=right&size=50% 100%
+---?image=template/img/bg/black.jpg&position=right&size=50% 100%
 @title[Heading + List Body]
 
-@snap[west split-screen-heading text-orange span-50]
+@snap[west split-screen-heading text-black span-50]
 When
 @snapend
 
@@ -47,10 +47,10 @@ When
 @olend
 @snapend
 
----?image=template/img/bg/orange.jpg&position=left&size=70% 100%
+---?image=template/img/bg/black.jpg&position=left&size=70% 100%
 @title[Heading + List Body]
 
-@snap[east split-screen-heading text-orange span-50]
+@snap[east split-screen-heading text-black span-50]
 要点
 @snapend
 
@@ -62,10 +62,10 @@ When
 @snapend
 
 
----?image=template/img/bg/orange.jpg&position=right&size=50% 100%
+---?image=template/img/bg/black.jpg&position=right&size=50% 100%
 @title[Heading + List Body]
 
-@snap[west split-screen-heading text-orange span-50]
+@snap[west split-screen-heading text-black span-50]
 how
 @snapend
 
@@ -73,10 +73,10 @@ how
 测试、小修改、测试、小修改
 @snapend
 
----?image=template/img/bg/orange.jpg&position=left&size=70% 100%
+---?image=template/img/bg/black.jpg&position=left&size=70% 100%
 @title[Heading + List Body]
 
-@snap[east split-screen-heading text-orange span-50]
+@snap[east split-screen-heading text-black span-50]
 搭建测试环境
 @snapend
 
@@ -89,10 +89,10 @@ how
 @snapend
 
 
----?image=template/img/bg/orange.jpg&position=left&size=70% 100%
+---?image=template/img/bg/black.jpg&position=left&size=70% 100%
 @title[Heading + List Body]
 
-@snap[east split-screen-heading text-orange span-50]
+@snap[east split-screen-heading text-black span-50]
 找出 "坏味道"
 @snapend
 
