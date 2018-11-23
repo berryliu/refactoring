@@ -23,7 +23,7 @@
 Why
 @snapend
 
-@snap[east text- span-45]
+@snap[east text-white span-45]
 @ol[split-screen-list](false)
 - 改进程序设计
 - 使程序更容易理解
@@ -47,7 +47,7 @@ When
 @olend
 @snapend
 
----?image=template/img/bg/black.jpg&position=left&size=70% 100%
+---?image=template/img/bg/black.jpg&position=left&size=60% 100%
 @title[Heading + List Body]
 
 @snap[east split-screen-heading text-black span-50]
@@ -73,7 +73,7 @@ how
 测试、小修改、<br>测试、小修改
 @snapend
 
----?image=template/img/bg/black.jpg&position=left&size=70% 100%
+---?image=template/img/bg/black.jpg&position=left&size=60% 100%
 @title[Heading + List Body]
 
 @snap[east split-screen-heading text-black span-50]
@@ -89,7 +89,7 @@ how
 @snapend
 
 
----?image=template/img/bg/black.jpg&position=left&size=70% 100%
+---?image=template/img/bg/black.jpg&position=left&size=60% 100%
 @title[Heading + List Body]
 
 @snap[east split-screen-heading text-black span-50]
