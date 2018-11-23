@@ -23,7 +23,7 @@
 Why
 @snapend
 
-@snap[east text-white span-45]
+@snap[east text- span-45]
 @ol[split-screen-list](false)
 - 改进程序设计
 - 使程序更容易理解
@@ -70,14 +70,14 @@ how
 @snapend
 
 @snap[east text-white span-45]
-测试、小修改、测试、小修改
+测试、小修改、<br>测试、小修改
 @snapend
 
 ---?image=template/img/bg/black.jpg&position=left&size=70% 100%
 @title[Heading + List Body]
 
 @snap[east split-screen-heading text-black span-50]
-搭建测试环境
+搭建<br>测试环境
 @snapend
 
 @snap[west text-white span-65]
@@ -93,7 +93,7 @@ how
 @title[Heading + List Body]
 
 @snap[east split-screen-heading text-black span-50]
-找出 "坏味道"
+找出<br>"坏味道"
 @snapend
 
 @snap[west text-white span-65]
@@ -110,6 +110,10 @@ how
 
 @snap[east split-screen-byline text-white]
 重构...
+@snapend
+
+@snap[west split-screen-img]
+![DEVELOPER](template/img/developer.jpg)
 @snapend
 
 ---?image=template/img/bg/black.jpg&position=left&size=50% 100%
