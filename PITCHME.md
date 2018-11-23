@@ -1,72 +1,67 @@
 ---?image=template/img/pencils.jpg
 @title[Split-Screen Templates]
 
-## @color[black](Split-Screen<br> Slide Templates)
+## @color[black](重构<br> 读书笔记)
 
-@fa[arrow-down text-black]
+@fa[arrow-right text-black]
 
-@snap[south docslink span-50]
-[The Template Docs](https://gitpitch.com/docs/the-template)
-@snapend
-
-+++?image=template/img/bg/orange.jpg&position=right&size=50% 100%
-@title[Heading + List Body]
-
-@snap[west split-screen-heading text-orange span-50]
-Topics to be covered today
-@snapend
-
-@snap[east text-white span-45]
-@ol[split-screen-list](false)
-- Lorem ipsum dolor sit amet, consectetur elit
-- Ut enim ad minim veniam, quis exercitation
-- Duis aute irure dolor in reprehenderit in voluptate
-@olend
-@snapend
-
-@snap[south-west template-note text-gray]
-Split-screen heading and list body template.
-@snapend
-
-
-+++?image=template/img/bg/pink.jpg&position=left&size=70% 100%
-@title[Heading + List Body]
-
-@snap[east split-screen-heading text-pink span-50]
-Top<br>Tips!
-@snapend
-
-@snap[west text-white span-65]
-@ul[split-screen-list](false)
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-@ulend
-@snapend
-
-@snap[south-west template-note text-white]
-Split-screen heading and list body template.
-@snapend
-
-
-+++?image=template/img/bg/black.jpg&position=right&size=50% 100%
+---?image=template/img/bg/black.jpg&position=right&size=50% 100%
 @title[Text + Image]
 
 @snap[east split-screen-byline text-white]
-Lorem ipsum sit dolor amet, consectetur elit.
+>在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构。
 @snapend
 
 @snap[west split-screen-img]
 ![DEVELOPER](template/img/developer.jpg)
 @snapend
 
-@snap[south-west template-note text-gray]
-Split-screen text and image template.
+---?image=template/img/bg/orange.jpg&position=right&size=50% 100%
+@title[Heading + List Body]
+
+@snap[west split-screen-heading text-orange span-50]
+Why
 @snapend
 
+@snap[east text-white span-45]
+@ol[split-screen-list](false)
+- 改进程序设计
+- 使程序更容易理解
+- 帮助找到 bug
+- 提高编程速度
+@olend
+@snapend
 
-+++?image=template/img/bg/green.jpg&position=left&size=50% 100%
+---?image=template/img/bg/orange.jpg&position=right&size=50% 100%
+@title[Heading + List Body]
+
+@snap[west split-screen-heading text-orange span-50]
+When
+@snapend
+
+@snap[east text-white span-45]
+@ol[split-screen-list](false)
+- 添加功能时
+- 修复bug时
+- 代码复审时
+@olend
+@snapend
+
+---?image=template/img/bg/pink.jpg&position=left&size=70% 100%
+@title[Heading + List Body]
+
+@snap[east split-screen-heading text-pink span-50]
+要点
+@snapend
+
+@snap[west text-white span-65]
+@ul[split-screen-list](false)
+- 添加新功能 与 重构
+- 性能 与 重构
+@ulend
+@snapend
+
+---?image=template/img/bg/green.jpg&position=left&size=50% 100%
 @title[Text + Image Fragment]
 
 @snap[west split-screen-byline text-white]
