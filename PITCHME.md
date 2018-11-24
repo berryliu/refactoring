@@ -130,3 +130,7 @@ void print(double amount) {
     System.out.println("amount: " + amount);
   }
 ```
+
+@snap[south-west template-note text-white]
+Extract Method(提炼函数)
+@snapend
