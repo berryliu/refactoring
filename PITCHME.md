@@ -101,7 +101,7 @@ How
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
 @title[Text + Image]
 
-@snap[west split-screen-byline text-white]
+@snap[west split-screen-heading text-black span-50]
 开始重构
 @snapend
 
@@ -183,7 +183,7 @@ void print(double amount) {
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
 @title[Text + Image]
 
-@snap[west split-screen-byline text-orange]
+@snap[west split-screen-heading text-orange span-50]
 赞美太阳！
 @snapend
 
