@@ -183,3 +183,14 @@ void print(double amount) {
 ```
 
 ![STATE](template/img/refactoring/state.png)
+
+---?image=template/img/bg/black.jpg&position=right&size=50% 100%
+@title[Text + Image]
+
+@snap[east split-screen-byline text-white]
+感谢！
+@snapend
+
+@snap[west split-screen-img]
+![DEVELOPER](template/img/developer.jpg)
+@snapend
