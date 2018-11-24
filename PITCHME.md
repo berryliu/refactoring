@@ -131,6 +131,6 @@ void print(double amount) {
   }
 ```
 
-@snap[south-west template-note text-white]
+@snap[south template-note text-white]
 Extract Method(提炼函数)
 @snapend
