@@ -7,8 +7,7 @@
 
 ---?color=white
 
-@box[bg-orange text-white rounded demo-box-pad](在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构)
-<!-- @quote[在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构](Martin Fowler) -->
+@quote[在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构](Martin Fowler)
 
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
 @title[Heading + List Body]
