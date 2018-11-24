@@ -113,7 +113,7 @@ How
 开始重构
 @snapend
 
----?color=lavender
+---?color=white
 @title[Fenced Code Block]
 
 ```java
@@ -121,8 +121,8 @@ void print(double amount) {
     printBanner();
 
     printDetail(amount);
-//    System.out.println("haha");
-//    System.out.println("amount: " amount);
+    // System.out.println("haha");
+    // System.out.println("amount: " amount);
   }
 
   void printDetail(double amount) {
