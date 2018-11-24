@@ -113,15 +113,9 @@ How
 开始重构
 @snapend
 
+---?color=lavender
+@title[Fenced Code Block]
 
----?image=template/img/bg/black.jpg&position=left&size=60% 100%
-@title[Heading + List Body]
-
-@snap[east split-screen-heading text-black span-50]
-Extract<br>Method
-@snapend
-
-@snap[west span-65]
 ```java
 void print(double amount) {
     printBanner();
@@ -136,5 +130,3 @@ void print(double amount) {
     System.out.println("amount: " + amount);
   }
 ```
-@snapend
-
