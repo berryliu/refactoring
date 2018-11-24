@@ -23,7 +23,7 @@
 Why
 @snapend
 
-@snap[east text-white list-content-concise span-45]
+@snap[east text-white span-45]
 @ol[split-screen-list](false)
 - 改进程序设计
 - 使程序更容易理解
@@ -39,7 +39,7 @@ Why
 When
 @snapend
 
-@snap[east text-white list-content-concise span-45]
+@snap[east text-white span-45]
 @ol[split-screen-list](false)
 - 添加功能时
 - 修复bug时
@@ -54,7 +54,7 @@ When
 要点
 @snapend
 
-@snap[west text-white list-content-concise span-65]
+@snap[west text-white span-65]
 @ul[split-screen-list](false)
 - 添加新功能
 - 性能
