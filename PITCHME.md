@@ -24,12 +24,12 @@ Why
 @snapend
 
 @snap[east text-white span-45]
-@ol[split-screen-list](false)
+@ul[split-screen-list](false)
 - 改进程序设计
 - 使程序更容易理解
 - 帮助找到 bug
 - 提高编程速度
-@olend
+@ulend
 @snapend
 
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
@@ -40,17 +40,17 @@ When
 @snapend
 
 @snap[east text-white span-45]
-@ol[split-screen-list](false)
+@ul[split-screen-list](false)
 - 添加功能时
 - 修复bug时
 - 代码复审时
-@olend
+@ulend
 @snapend
 
----?image=template/img/bg/black.jpg&position=left&size=60% 100%
+---?image=template/img/bg/orange.jpg&position=left&size=50% 100%
 @title[Heading + List Body]
 
-@snap[east split-screen-heading text-black span-50]
+@snap[east split-screen-heading text-orange span-50]
 要点
 @snapend
 
@@ -73,10 +73,10 @@ How
 测试、小修改、<br>测试、小修改
 @snapend
 
----?image=template/img/bg/black.jpg&position=left&size=60% 100%
+---?image=template/img/bg/orange.jpg&position=left&size=50% 100%
 @title[Heading + List Body]
 
-@snap[east split-screen-heading text-black span-50]
+@snap[east split-screen-heading text-orange span-50]
 搭建<br>测试环境
 @snapend
 
@@ -89,10 +89,10 @@ How
 @snapend
 
 
----?image=template/img/bg/black.jpg&position=left&size=60% 100%
+---?image=template/img/bg/orange.jpg&position=left&size=50% 100%
 @title[Heading + List Body]
 
-@snap[east split-screen-heading text-black span-50]
+@snap[east split-screen-heading text-orange span-50]
 找出<br>"坏味道"
 @snapend
 
