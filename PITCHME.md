@@ -1,8 +1,8 @@
 ---?image=template/img/pencils.jpg
 @title[Split-Screen Templates]
 
-## @color[black](重构<br> 读书笔记)
-
+## @color[black](《重构》)
+#### @color[black](——读书笔记)
 @fa[arrow-right text-black]
 
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
