@@ -120,7 +120,7 @@ How
 ---?color=white
 @title[Fenced Code Block]
 
-#### Extract Method(提炼函数)
+#### 提炼函数
 
 ```java
 void print(double amount) {
@@ -140,7 +140,7 @@ void print(double amount) {
 ---?color=white
 @title[Fenced Code Block]
 
-#### Replace Temp with Query(以查询取代临时变量)
+#### 以查询取代临时变量
 
 ```java
   // double basePrice = quantity * itemPrice;
@@ -159,15 +159,15 @@ void print(double amount) {
 ---?color=white
 @title[Fenced Code Block]
 
-#### Move method(搬移函数)
+#### 搬移函数
 
 ![MOVE-METHOD](template/img/refactoring/move-method.png)
 
 ---?color=white
 @title[Fenced Code Block]
 
-#### Replace Conditional with Polymorphism(以多态取代条件表达式)
-#### Replace Type Code with State(以 State/Strategy 取代类型码)
+#### 以多态取代条件表达式
+#### 以 State/Strategy 取代类型码
 
 ```java
  int getCharge() {
@@ -181,6 +181,10 @@ void print(double amount) {
     }
   }
 ```
+
+
+---?color=white
+@title[Fenced Code Block]
 
 ![STATE](template/img/refactoring/state.png)
 
