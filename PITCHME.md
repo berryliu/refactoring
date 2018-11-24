@@ -120,6 +120,8 @@ How
 ---?color=white
 @title[Fenced Code Block]
 
+#### Extract Method(提炼函数)
+
 ```java
 void print(double amount) {
     printBanner();
@@ -135,12 +137,10 @@ void print(double amount) {
   }
 ```
 
-@snap[north-east template-note text-gray]
-Extract Method(提炼函数)
-@snapend
-
 ---?color=white
 @title[Fenced Code Block]
+
+#### Replace Temp with Query(以查询取代临时变量)
 
 ```java
   // double basePrice = quantity * itemPrice;
@@ -156,21 +156,9 @@ Extract Method(提炼函数)
   }
 ```
 
-@snap[north-east template-note text-gray]
-Replace Temp with Query(以查询取代临时变量)
-@snapend
-
-@snap[north-east template-note text-gray]
-Extract Method(提炼函数)
-@snapend
-
 ---?color=white
 @title[Fenced Code Block]
 
-@snap[split-screen-img]
-![MOVE-METHOD](template/img/refactoring/move-method.png)
-@snapend
+#### Move method(搬移函数)
 
-@snap[north-east template-note text-gray]
-Move method(搬移函数)
-@snapend
+![MOVE-METHOD](template/img/refactoring/move-method.png)
