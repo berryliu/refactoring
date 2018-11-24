@@ -3,7 +3,6 @@
 
 ## @color[black](《重构》)
 #### @color[black](——读书笔记)
-@fa[arrow-right text-black]
 
 ---?color=white
 
