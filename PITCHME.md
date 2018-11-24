@@ -56,8 +56,8 @@ When
 
 @snap[west text-white span-65]
 @ul[split-screen-list](false)
-- 添加新功能 与 重构
-- 性能 与 重构
+- 添加新功能
+- 性能
 @ulend
 @snapend
 
@@ -66,7 +66,7 @@ When
 @title[Heading + List Body]
 
 @snap[west split-screen-heading text-black span-50]
-how
+How
 @snapend
 
 @snap[east text-white span-45]
@@ -101,7 +101,8 @@ how
 - 重复代码
 - 过长函数
 - switch 表达式
-- 临时字段...
+- 临时字段
+- ...
 @ulend
 @snapend
 
@@ -109,24 +110,31 @@ how
 @title[Text + Image]
 
 @snap[east split-screen-byline text-white]
-重构...
+开始重构
 @snapend
 
-@snap[west split-screen-img]
-![DEVELOPER](template/img/developer.jpg)
+
+---?image=template/img/bg/black.jpg&position=left&size=60% 100%
+@title[Heading + List Body]
+
+@snap[east split-screen-heading text-black span-50]
+Extract<br>Method
 @snapend
 
----?image=template/img/bg/black.jpg&position=left&size=50% 100%
-@title[Text + Image Centered]
+@snap[west span-65]
+```java
+void print(double amount) {
+    printBanner();
 
-@snap[west split-screen-byline text-white]
-Lorem ipsum<br>sit dolor amet, consectetur elit.
+    printDetail(amount);
+//    System.out.println("haha");
+//    System.out.println("amount: " amount);
+  }
+
+  void printDetail(double amount) {
+    System.out.println("haha");
+    System.out.println("amount: " + amount);
+  }
+```
 @snapend
 
-@snap[east split-screen-text text-black]
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-@snapend
-
-@snap[south-west template-note text-white]
-Split-screen text and centered image template.
-@snapend
