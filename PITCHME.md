@@ -7,7 +7,8 @@
 
 ---?color=white
 
-@quote[在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构]
+@box[bg-orange text-white rounded demo-box-pad](在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构)
+<!-- @quote[在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构](Martin Fowler) -->
 
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
 @title[Heading + List Body]
@@ -17,12 +18,12 @@ Why
 @snapend
 
 @snap[east text-white span-45]
-@ul[split-screen-list](false)
+@ol[split-screen-list](false)
 - 改进程序设计
 - 使程序更容易理解
 - 帮助找到 bug
 - 提高编程速度
-@ulend
+@olend
 @snapend
 
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
@@ -33,14 +34,14 @@ When
 @snapend
 
 @snap[east text-white span-45]
-@ul[split-screen-list](false)
+@ol[split-screen-list](false)
 - 添加功能时
 - 修复bug时
 - 代码复审时
-@ulend
+@olend
 @snapend
 
----?image=template/img/bg/orange.jpg&position=left&size=50% 100%
+---?image=template/img/bg/black.jpg&position=left&size=50% 100%
 @title[Heading + List Body]
 
 @snap[east split-screen-heading text-orange span-50]
@@ -48,10 +49,10 @@ When
 @snapend
 
 @snap[west text-white span-65]
-@ul[split-screen-list](false)
+@ol[split-screen-list](false)
 - 添加新功能
 - 性能
-@ulend
+@olend
 @snapend
 
 
@@ -66,7 +67,7 @@ How
 测试、小修改、<br>测试、小修改
 @snapend
 
----?image=template/img/bg/orange.jpg&position=left&size=50% 100%
+---?image=template/img/bg/black.jpg&position=left&size=50% 100%
 @title[Heading + List Body]
 
 @snap[east split-screen-heading text-orange span-50]
@@ -74,15 +75,15 @@ How
 @snapend
 
 @snap[west text-white span-65]
-@ul[split-screen-list](false)
+@ol[split-screen-list](false)
 - 确保独立可靠
 - 确保完全自动化
 - 在开始编程前写测试代码
-@ulend
+@olend
 @snapend
 
 
----?image=template/img/bg/orange.jpg&position=left&size=50% 100%
+---?image=template/img/bg/black.jpg&position=left&size=50% 100%
 @title[Heading + List Body]
 
 @snap[east split-screen-heading text-orange span-50]
@@ -90,13 +91,13 @@ How
 @snapend
 
 @snap[west text-white span-65]
-@ul[split-screen-list](false)
+@ol[split-screen-list](false)
 - 重复代码
 - 过长函数
 - switch 表达式
 - 临时字段
 - ...
-@ulend
+@olend
 @snapend
 
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
