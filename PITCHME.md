@@ -184,7 +184,7 @@ void print(double amount) {
 @title[Text + Image]
 
 @snap[east split-screen-byline text-white]
-感谢！
+赞美太阳！
 @snapend
 
 @snap[west split-screen-img]
