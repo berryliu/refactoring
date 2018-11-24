@@ -131,6 +131,28 @@ void print(double amount) {
   }
 ```
 
-@snap[south template-note text-white]
+@snap[north-east template-note text-gray]
 Extract Method(提炼函数)
+@snapend
+
+---?color=white
+@title[Fenced Code Block]
+
+```java
+void print(double amount) {
+    printBanner();
+
+    printDetail(amount);
+    // System.out.println("haha");
+    // System.out.println("amount: " amount);
+  }
+
+  void printDetail(double amount) {
+    System.out.println("haha");
+    System.out.println("amount: " + amount);
+  }
+```
+
+@snap[north-east template-note text-gray]
+Replace Temp with Query(以查询取代临时变量)
 @snapend
