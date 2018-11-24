@@ -162,3 +162,24 @@ void print(double amount) {
 #### Move method(搬移函数)
 
 ![MOVE-METHOD](template/img/refactoring/move-method.png)
+
+---?color=white
+@title[Fenced Code Block]
+
+#### Replace Conditional with Polymorphism(以多态取代条件表达式)
+#### Replace Type Code with State(以 State/Strategy 取代类型码)
+
+```java
+ int getCharge() {
+    switch (type) {
+      case CHILDENS:
+        return daysRented * 2;
+      case REGULAR:
+        return daysRented * 1.5;
+      default:
+        return 0;
+    }
+  }
+```
+
+![STATE](template/img/refactoring/state.png)
