@@ -5,16 +5,9 @@
 #### @color[black](——读书笔记)
 @fa[arrow-right text-black]
 
----?image=template/img/bg/black.jpg&position=right&size=50% 100%
-@title[Text + Image]
+---?color=white
 
-@snap[east split-screen-byline text-white]
-『在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构』
-@snapend
-
-@snap[west split-screen-img]
-![DEVELOPER](template/img/developer.jpg)
-@snapend
+@quote[在不改变代码外在行为的前提下，对代码做出修改，以改进程序的内部结构]
 
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
 @title[Heading + List Body]
