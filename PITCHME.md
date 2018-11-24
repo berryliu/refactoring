@@ -113,6 +113,10 @@ How
 开始重构
 @snapend
 
+@snap[west split-screen-img]
+![DEVELOPER](template/img/developer.jpg)
+@snapend
+
 ---?color=white
 @title[Fenced Code Block]
 
@@ -139,20 +143,34 @@ Extract Method(提炼函数)
 @title[Fenced Code Block]
 
 ```java
-void print(double amount) {
-    printBanner();
+  // double basePrice = quantity * itemPrice;
 
-    printDetail(amount);
-    // System.out.println("haha");
-    // System.out.println("amount: " amount);
+  if (basePrice() > 100) {
+    return basePrice() * 0.95;
+  } else {
+    return basePrice() * 0.98;
   }
 
-  void printDetail(double amount) {
-    System.out.println("haha");
-    System.out.println("amount: " + amount);
+  double basePrice(){
+    return quantity * itemPrice;
   }
 ```
 
 @snap[north-east template-note text-gray]
 Replace Temp with Query(以查询取代临时变量)
+@snapend
+
+@snap[north-east template-note text-gray]
+Extract Method(提炼函数)
+@snapend
+
+---?color=white
+@title[Fenced Code Block]
+
+@snap[split-screen-img]
+![MOVE-METHOD](template/img/refactoring/move-method.png)
+@snapend
+
+@snap[north-east template-note text-gray]
+Move method(搬移函数)
 @snapend
