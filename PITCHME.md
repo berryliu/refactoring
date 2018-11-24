@@ -99,13 +99,13 @@ How
 @snapend
 
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
-@title[Text + Image Fragment]
+@title[Text + Image]
 
 @snap[west split-screen-byline text-white]
 开始重构
 @snapend
 
-@snap[east split-screen-img fragment]
+@snap[east split-screen-img]
 ![DEVELOPER](template/img/developer.jpg)
 @snapend
 
@@ -181,12 +181,12 @@ void print(double amount) {
 ![STATE](template/img/refactoring/state.png)
 
 ---?image=template/img/bg/black.jpg&position=right&size=50% 100%
-@title[Text + Image Fragment]
+@title[Text + Image]
 
 @snap[west split-screen-byline text-orange]
 赞美太阳！
 @snapend
 
-@snap[east split-screen-img fragment]
+@snap[east split-screen-img]
 ![DEVELOPER](template/img/developer.jpg)
 @snapend
